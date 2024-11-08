@@ -1,0 +1,27 @@
+name: ArcaneCore
+main: xtcy\ArcaneCore\Loader
+api: 5.0.0
+version: 1.0.0
+author: xtcy
+description: "Ethereal's arcane skyblock core based off advancius's SB"
+
+permissions:
+  arcane_default_command:
+    default: true
+    description: "This permission is set to every command that is meant to be default"
+  arcane_admin_command:
+    default: op
+  arcane.command.setwarp:
+    default: op
+  arcane.command.delwarp:
+    default: op
+  arcane.no_warp_delay:
+    default: op
+  arcane.bounty.admin:
+    default: op
+  arcane.gems.add:
+    default: op
+  arcane.gems.remove:
+    default: op
+  arcane.gems.set:
+    default: op
